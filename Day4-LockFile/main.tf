@@ -1,7 +1,7 @@
 resource "aws_vpc" "name" {
     cidr_block = "10.0.0.0/16"
     tags = {
-        Name = "Ray-VPC"
+        Name = "Ray-VPC-Test09"
     }
 }
 resource "aws_instance" "Rayees" {
