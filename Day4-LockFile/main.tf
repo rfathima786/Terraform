@@ -7,6 +7,9 @@ resource "aws_vpc" "name" {
 resource "aws_instance" "Rayees" {
     instance_type ="t3.micro"
     ami = "ami-07860a2d7eb515d9a"
+    tags = {
+      Name = "state123"
+    }
     
   
 }
